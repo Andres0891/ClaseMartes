@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="animacion.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Ejercicios-DOM</title>
+</head>
+<body>
+    <marquee>
+        <h1 id="txt">Introduccion al DOM</h1>
+    </marquee>
+    
+    <h1 id="txt">Hola</h1>
+
+<div> 
+    <button onclick="encender()" id="fondo">Encender</button>
+    <img src="pic_bulboff.gif" alt="opps!" id="img">
+    <button onclick="apagar()">Apagar</button> 
+</div>
+<br><br>
+<button onclick="CambiarVerde()">Verde</button>
+<button onclick="CambiarBlanco()">Predeterminado</button>
+
+<div>
+    <ol>  <!--lista ordenada-->
+        <li>Naranjas</li>
+        <li>Manzanas</li>
+    </ol>
+    <br><br>
+    <ul id="lista"> <!--lista desordena-->
+        <li>Lunes</li>
+        <li>Martes</li>
+    </ul>
+    <br>
+    <input type="text" id="dato">
+    <br>
+    <button onclick="agregar()">Agregar</button>
+    <button onclick="eliminar()" >Eliminar</button>
+</div>
+
+<script src="funciones.js"></script>
+</body>
+</html>
